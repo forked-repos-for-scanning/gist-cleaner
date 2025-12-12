@@ -1,6 +1,12 @@
 version = 1
 
 [[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/forked-repos-for-scanning/gist-cleaner"
+
+[[analyzers]]
 name = "javascript"
 
   [analyzers.meta]
